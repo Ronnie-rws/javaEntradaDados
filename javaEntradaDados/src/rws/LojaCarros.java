@@ -17,7 +17,9 @@ public class LojaCarros {
 		
 		double resto = carroNumero % pessoaNumero;
 		
-		System.out.println("A divisão de pessoa deu: " + divisao + " carros " + resto);
+		//System.out.println("A divisão de pessoa deu: " + divisao + " carros " + resto + " carros ");
+		
+		JOptionPane.showMessageDialog(null,"A divisão de pessoa deu: " + divisao + " carros " + resto + " carros " );
 		
 	}
 
